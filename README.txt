@@ -1,1 +1,1 @@
-一个简单的手电筒应用
+It's a simple Flashlight app for iPhone
