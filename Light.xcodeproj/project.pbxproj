@@ -27,6 +27,8 @@
 		AA7036DE16437C030093F57C /* nomorl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA7036DA16437C030093F57C /* nomorl@2x.png */; };
 		AA7036E316437D030093F57C /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = AA7036E116437D030093F57C /* selected.png */; };
 		AA7036E416437D030093F57C /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA7036E216437D030093F57C /* selected@2x.png */; };
+		AAEF2E5E1786FF98008F88EB /* power_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEF2E5C1786FF98008F88EB /* power_on@2x.png */; };
+		AAEF2E5F1786FF98008F88EB /* power_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEF2E5D1786FF98008F88EB /* power_off@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		AA7036DA16437C030093F57C /* nomorl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nomorl@2x.png"; sourceTree = "<group>"; };
 		AA7036E116437D030093F57C /* selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected.png; sourceTree = "<group>"; };
 		AA7036E216437D030093F57C /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@2x.png"; sourceTree = "<group>"; };
+		AAEF2E5C1786FF98008F88EB /* power_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "power_on@2x.png"; sourceTree = "<group>"; };
+		AAEF2E5D1786FF98008F88EB /* power_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "power_off@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				AA6C40F71642B0220077458A /* 001.png */,
+				AAEF2E5C1786FF98008F88EB /* power_on@2x.png */,
+				AAEF2E5D1786FF98008F88EB /* power_off@2x.png */,
 				AA6C40F51642B01C0077458A /* icon.png */,
 				AA6C40F91642B11C0077458A /* bg@2x.png */,
 				AA7036E116437D030093F57C /* selected.png */,
@@ -207,6 +213,8 @@
 				AA7036DE16437C030093F57C /* nomorl@2x.png in Resources */,
 				AA7036E316437D030093F57C /* selected.png in Resources */,
 				AA7036E416437D030093F57C /* selected@2x.png in Resources */,
+				AAEF2E5E1786FF98008F88EB /* power_on@2x.png in Resources */,
+				AAEF2E5F1786FF98008F88EB /* power_off@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +309,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Light/Light-Prefix.pch";
 				INFOPLIST_FILE = "Light/Light-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -312,6 +321,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Light/Light-Prefix.pch";
 				INFOPLIST_FILE = "Light/Light-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

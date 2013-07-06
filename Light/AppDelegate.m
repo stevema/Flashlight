@@ -45,12 +45,12 @@
             if (!torchIsOn) {
                 [device setTorchMode:AVCaptureTorchModeOn];
                 [device setFlashMode:AVCaptureFlashModeOn];
-                _lightView.image = [UIImage imageNamed:@"selected"];
+                _lightView.image = [UIImage imageNamed:@"power_on"];
                 torchIsOn = YES;
             } else {
                 [device setTorchMode:AVCaptureTorchModeOff];
                 [device setFlashMode:AVCaptureFlashModeOff];
-                _lightView.image = [UIImage imageNamed:@"nomorl"];
+                _lightView.image = [UIImage imageNamed:@"power_off"];
                 torchIsOn = NO;
             }
             [device unlockForConfiguration];
